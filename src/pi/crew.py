@@ -1,6 +1,13 @@
 # src/pi/crew.py
 
 import os
+import sys
+
+# Inject project root path to resolve top-level module imports
+root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+if root_path not in sys.path:
+    sys.path.insert(0, root_path)
+
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from config.settings import settings
