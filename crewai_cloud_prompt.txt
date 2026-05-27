@@ -1,0 +1,19 @@
+================================================================================
+              CREWAI CLOUD AUTOMATION PROMPT
+================================================================================
+
+Copy the text below and paste it directly into the "Describe the automation you want to build..." 
+textbox on your CrewAI AMP Cloud Dashboard (shown in your screenshot), then click the blue arrow (Send) button!
+
+------------------------- COPY THE MATN BELOW -------------------------
+Build a local Windows OS automation Telegram bot that allows secure desktop management, runs PowerShell commands, captures screen displays, and handles files. The bot must listen to incoming Telegram messages, routing normal chat requests to a smart assistant, while executing OS control cmdlets safely. Implement a Human-in-the-Loop (HITL) approval gate so that dangerous commands (like del, format, rm, shutdown) require the admin to click an 'Approve' button on Telegram before running, while safe read-only queries run automatically.
+------------------------------------------------------------------------
+
+================================================================================
+💡 O'ZBEKCHA TUSHUNTIRISH:
+Ushbu yuqoridagi matnni nusxalab (Copy), skrinshotda ko'rsatilgan brauzeringizdagi 
+"Describe the automation you want to build..." maydoniga joylashtiring (Paste) 
+va o'ng tarafdagi ko'k rangli dumaloq o'q tugmasini bosing! 
+
+Bulutli CrewAI tizimi siz uchun barcha agentlarni avtomatik yaratib beradi.
+================================================================================

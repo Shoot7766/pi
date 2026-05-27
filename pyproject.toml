@@ -1,0 +1,16 @@
+[project]
+name = "pi"
+version = "0.1.0"
+description = "Central AI Boss Operating System"
+authors = [{ name = "Admin", email = "admin@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai>=0.28.0",
+]
+
+[tool.crewai]
+type = "crew"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

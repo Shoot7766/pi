@@ -1,0 +1,21 @@
+# .gitignore
+
+# Environment variables containing sensitive API keys
+.env
+.env.local
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Databases and Vector storage
+storage/*.sqlite3
+storage/chroma/
+
+# Telethon active session files
+*.session
+storage/*.session
+
+# Scratch debug scripts with hardcoded parameters
+scratch/

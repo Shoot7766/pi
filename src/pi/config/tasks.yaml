@@ -1,0 +1,17 @@
+# src/pi/config/tasks.yaml
+
+analysis_task:
+  description: |
+    Kelgan xabarni tahlil qil: '{message}'.
+    Agarda bu shaxsiy chatdan kelgan oddiy xabar bo'lsa, 'reply_sender_agent' orqali o'ta tabiiy insoniy javob tayyorla.
+    Agarda bu Boshliq tomonidan berilgan yangi murakkab tizimli buyruq bo'lsa (masalan: saytlarni tekshirish, Instagramni boshqarish, o'quv markazi kameralarini ko'rish), u holda tegishli asboblar (tools) yordamida buyruqni bajar.
+    Agar buyruqni bajarish uchun etishmayotgan API kalitlar yoki login/parollar bo'lsa, foydalanuvchiga buni chiroyli formatda ma'lum qil va so'ra.
+  expected_output: |
+    Bajarilgan ish natijasi bo'yicha tayyorlangan o'zbekcha batafsil hisobot yoki tayyorlangan insoniy Telegram javobi.
+
+reply_task:
+  description: |
+    Tayyorlangan javobni yoki tizim hisobotini foydalanuvchining Telegram chatiga yuborish.
+    Yuborishdan oldin xuddi odam yozayotgandek 2 soniyalik yozish simulyatsiyasini amalga oshir.
+  expected_output: |
+    Telegram orqali xabar yuborilganligi holati.
