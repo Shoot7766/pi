@@ -11,6 +11,9 @@ dependencies = [
 [tool.crewai]
 type = "crew"
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/pi"]
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
